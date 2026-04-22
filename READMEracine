@@ -1,0 +1,96 @@
+# Pink Hub — Team Agenda
+
+Application web mobile-first de coordination d’équipe conçue pour centraliser les disponibilités individuelles, visualiser les créneaux communs et piloter un agenda collectif administré.
+
+## Objectif
+
+Pink Hub Team Agenda permet d’organiser un collectif, un groupe ou une équipe en séparant clairement :
+
+- l’agenda personnel de chaque membre
+- la lecture collective des disponibilités
+- l’agenda commun officiel, modifiable uniquement par un administrateur
+
+## Fonctionnement
+
+### Agenda personnel
+Chaque membre gère son propre agenda avec plusieurs niveaux de lecture :
+
+- heure
+- jour
+- semaine
+- mois
+- année
+
+La saisie manuelle est prioritaire.  
+Une synchronisation Google Agenda pourra être ajoutée en option.
+
+### Vue collective
+L’application permet de croiser les disponibilités des membres pour faire ressortir les périodes vacantes et les créneaux communs exploitables.
+
+### Agenda commun
+L’agenda commun représente les événements validés du groupe :
+
+- visible par tous
+- modifiable uniquement par un administrateur
+
+## Statut du projet
+
+Prototype web mobile-first en cours de structuration.
+
+Cette version sert à tester :
+
+- l’ergonomie générale
+- la navigation temporelle
+- la distinction entre agenda personnel et agenda commun
+- la lecture des créneaux disponibles à l’échelle collective
+
+## Fonctionnalités visées
+
+- gestion manuelle des disponibilités
+- vues heure / jour / semaine / mois / année
+- timeline personnelle
+- timeline collective
+- détection des créneaux communs
+- agenda commun administré
+- notifications de rappel
+- synchronisation Google Agenda optionnelle
+- déploiement web mobile-first
+
+## Public visé
+
+- groupes de musique
+- collectifs artistiques
+- associations
+- petites équipes projet
+
+## Déploiement
+
+Le projet peut être déployé en front statique sur Netlify pour tester l’interface et la logique produit.
+
+## Roadmap
+
+### V1
+- prototype partageable
+- navigation claire
+- lecture personnelle et collective cohérente
+
+### V2
+- backend minimal
+- comptes utilisateurs
+- données partagées
+- agenda commun administré
+
+### V3
+- notifications
+- synchronisation Google optionnelle
+- version plus proche d’une application complète
+
+## Auteur
+
+Projet initié par Gabriel Bossuyt / Gabriel Durik  
+Écosystème Pink Hub / Pink Kulture.
+
+## Statut juridique
+
+Code et concept non libres à ce stade.  
+Tous droits réservés sauf autorisation explicite de l’auteur.

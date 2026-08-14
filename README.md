@@ -4,6 +4,8 @@ Prototype web mobile-first de coordination d’équipe pour les projets artistiq
 
 L’application permet à chaque membre d’indiquer ses disponibilités, de visualiser les créneaux communs et de préparer un agenda collectif piloté par l’équipe.
 
+> **Confidentialité de la démo publique :** les membres, rôles opérationnels, créneaux et notes inclus dans `index.html` sont des données fictives de démonstration. Aucune disponibilité ni note personnelle d’un membre réel de Pink Kulture / Magnolia ne doit être publiée dans ce dépôt.
+
 ## Fonctionnalités de la démo
 
 - disponibilités par jour et par créneau ;
@@ -11,8 +13,9 @@ L’application permet à chaque membre d’indiquer ses disponibilités, de vis
 - lecture individuelle et synthèse collective ;
 - vues jour, semaine, mois et année ;
 - repérage visuel des meilleurs créneaux communs ;
-- gestion simulée des membres, documents et paramètres ;
-- interface mobile-first dans un fichier autonome.
+- gestion simulée des membres et paramètres ;
+- interface mobile-first autonome ;
+- stockage local de démonstration via `localStorage`, sans backend.
 
 ## Tester localement
 

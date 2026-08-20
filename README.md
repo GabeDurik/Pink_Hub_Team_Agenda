@@ -1,8 +1,16 @@
 # Pink Hub — Team Agenda
 
+> **Statut : LEGACY / MIGRATION SOURCE.** Ce dépôt est conservé comme prototype historique. Les évolutions fonctionnelles destinées à l’agenda collectif sont désormais à router vers `GabeDurik/LYRA_MapOS`, dont le périmètre inclut le module Agenda.
+
 Prototype web mobile-first de coordination d’équipe pour les projets artistiques, culturels et associatifs.
 
 L’application permet à chaque membre d’indiquer ses disponibilités, de visualiser les créneaux communs et de préparer un agenda collectif piloté par l’équipe.
+
+## Rôle historique
+
+Ce prototype a précédé l’architecture actuelle de LYRA. Il reste utile comme source de concepts, d’interface et de logique fonctionnelle à auditer avant réintégration éventuelle dans le module Agenda de LYRA.
+
+Le dépôt ne doit pas être fusionné brutalement avec LYRA : les éléments encore utiles doivent être migrés ou réimplémentés de manière ciblée, avec provenance conservée.
 
 > **Confidentialité de la démo publique :** les membres, rôles opérationnels, créneaux et notes inclus dans `index.html` sont des données fictives de démonstration. Aucune disponibilité ni note personnelle d’un membre réel de Pink Kulture / Magnolia ne doit être publiée dans ce dépôt.
 
@@ -31,23 +39,17 @@ cd Pink_Hub_Team_Agenda
 
 Puis ouvrir `index.html`.
 
-## Statut réel
+## Statut technique historique
 
-Il s’agit actuellement d’une **démonstration front-end** : les données, comptes, invitations, synchronisations et notifications ne sont pas encore reliés à un backend de production.
+Il s’agit d’une **démonstration front-end** : les données, comptes, invitations, synchronisations et notifications ne sont pas reliés à un backend de production.
 
-Étapes prévues pour une version exploitable :
-
-- authentification et rôles ;
-- base de données partagée ;
-- invitations d’équipe ;
-- synchronisation calendrier ;
-- notifications et rappels ;
-- gestion des droits et de la confidentialité.
+Toute reprise de ces fonctions doit désormais être évaluée dans le contexte de `LYRA_MapOS` plutôt que poursuivie ici comme produit concurrent.
 
 ## Auteur et écosystème
 
 Conception : **Gabriel Bossuyt**  
-Écosystème : **Pink Kulture / Pink Hub**
+Écosystème historique : **Pink Kulture / Pink Hub**  
+Successeur fonctionnel : **LYRA_MapOS — module Agenda**
 
 ## Licence
 
